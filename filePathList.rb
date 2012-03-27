@@ -6,7 +6,7 @@ class FilePathListOption
     # = 除外リスト
     # 正規表現で除外する一覧を指定
     def exclusionOption
-      '(\.svn|\w*test|bin|debug|release)'
+      '(\.svn|bin|debug|release)'
     end
 
     # = 対象リスト
